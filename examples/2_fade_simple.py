@@ -4,7 +4,7 @@ from time import sleep
 client = opc.Client('localhost:7890')
 
 led_list = [(0,0,0)]*360           # list of 360 tuples, each containing R,G,B values.
-fade_amount = 5                     # size of each fade step.
+fade_amount = 100                     # size of each fade step.
 print(led_list)
 print(enumerate(led_list))
 while True:
